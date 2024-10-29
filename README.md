@@ -1,9 +1,21 @@
 # ecommerce-sales-analysis
 An in-depth analysis of e-commerce sales data to uncover trends, customer behavior, and revenue drivers. This project includes data cleaning, exploratory data analysis (EDA), and key visualizations to identify insights that can inform business decisions. Tools used include Python, Pandas, Matplotlib, and Seaborn.
 
+## Dataset
+- **Source:** [E-Commerce Sales Data](https://www.kaggle.com/datasets/rosalinadas/ecommerce-data/data)
+- **Creator:** [Rosalina Das](https://www.kaggle.com/rosalinadas)
+- **Description:** The E-Commerce Sales Data dataset contains comprehensive transaction records from an online retail platform selling electronics covering the period from January 2019 to January 2020. It includes various attributes that provide insights into customer behavior and product performance. Key features of the dataset include:
+
+  - **Order ID:** Unique identifier for each sale.
+  - **Product:** The name of the product (e.g., google phone, usb-c charging cable, apple airpods headphones).
+  - **Quantity Ordered:** The number of units sold in each transaction.
+  - **Price Each:** The price of units sold in each transaction.
+  - **Order Date:** The date and time when the transaction occurred.
+  - **Purchase Address:** Unique identifier for each customer with demographic info about location.
+
 ## Background and Overview
 
-The dataset used in this project comes from **XYZ Company** (a fictitious entity), an online retail platform specializing in electronics. The data encompasses comprehensive transaction records from 2019 to 2021, allowing for insights into customer behavior and product performance.
+The dataset used in this project comes from **XYZ Company** (a fictitious entity), an online retail platform specializing in electronics. The data encompasses comprehensive transaction records from 2019 to 2020, allowing for insights into customer behavior and product performance.
 
 Insights and recommendations are provided on the following key areas:
 
@@ -54,7 +66,6 @@ The dataset consists of [371,900] records and [6] features. Below is a summary o
   - Price Each: [X] missing values
   - Order Date: [X] missing values
   - Purchase Address: [X] missing values
-  - Total Price: [X] missing values
 
 - **Detection**: Missing values were detected using the `isnull()` function in pandas, which identified gaps in the dataset.
 
@@ -81,13 +92,13 @@ Following a period of steady growth, the company’s sales experienced fluctuati
 Below is the overview page from the Power BI dashboard, with more examples included throughout the report. The entire interactive dashboard can be downloaded [here](#).
 
 ### Sales Trends:
-The company’s sales peaked in December 2021, recording 3,500 orders with total monthly revenue of $1,200,000. This spike correlates with increased online shopping during the holiday season, driven by evolving consumer habits during the pandemic. 
+The company’s sales peaked in X, recording X orders with total monthly revenue of $X. This spike correlates with increased online shopping during the holiday season, driven by evolving consumer habits during the pandemic. 
 
-However, starting in January 2022, revenue began to decline year-over-year for 18 consecutive months. By March 2023, revenue hit a significant low, amounting to approximately $150,000. Following this period, there was a modest recovery, aligned with seasonal trends typically observed during the summer months.
+However, starting in X, revenue began to decline month-over-month for X consecutive months. By X, revenue hit a significant low, amounting to approximately $X. Following this period, there was a modest recovery, aligned with seasonal trends typically observed during X.
 
-Despite the overall downward trajectory, the full year of 2022 remained above the pre-COVID 2019 baseline in all three key performance indicators. This resilience can be attributed to a strong first quarter in 2022, where revenue and order volume exceeded the same period in 2021, increasing by 25% and 18%, respectively.
+Despite the overall downward trajectory, the full year of 2019 remained above the pre-COVID 2019 baseline in all three key performance indicators. This resilience can be attributed to a strong first quarter in 2019, where revenue and order volume exceeded the same period in X, increasing by 25% and 18%, respectively.
 
-Interestingly, average order value saw a peak in August 2022, driven by a higher proportion of sales in premium electronics.
+Interestingly, average order value saw a peak in X, driven by a higher proportion of sales in premium electronics.
 
 ![Power BI Chart](#)
 
